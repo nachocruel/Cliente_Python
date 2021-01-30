@@ -7,8 +7,8 @@ import os
 
 pnconfig = PNConfiguration()
 
-pnconfig.publish_key = "pub-c-e5c8e409-367f-4eb2-8d95-0d93e5fdfd8b"
-pnconfig.subscribe_key = "sub-c-4c1671dc-347a-11ea-b8ef-b6462cb07a90"
+pnconfig.publish_key = "chave pubnub publica aqui"
+pnconfig.subscribe_key = "chave de subscricao aqui"
 pnconfig.ssl = True
 
 pubnub = PubNub(pnconfig)
